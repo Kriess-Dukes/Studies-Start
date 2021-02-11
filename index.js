@@ -13,7 +13,7 @@
 */
 
 // 1. declaration //
-var myName;
+var myName = kriess;
 
 /*
 * At the declaration phase, the variable myName is undefined because we have NOT initialized
@@ -22,14 +22,14 @@ var myName;
 console.log(myName); // prints => undefined
 
 // 2. initialization or assignment //
-myName = 'john';
+myName = 'kriess';
 console.log(myName); // prints => john
 
 // 3. re-assignment //
-myName = 'bob';
+myName = 'Joe';
 console.log(myName); // prints => bob
 
 // NOTE: We can assign and re-assign anything to a variable - we cannot do this with constants //
-var myVariable = 1;
+var myVariable = 19;
 var myVariable = true;
-myVariable = "someString";
+myVariable = "I LOve Naruto and Boruto";
